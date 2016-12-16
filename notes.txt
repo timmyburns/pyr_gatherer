@@ -1,0 +1,11 @@
+Functions needed:
+
+- copy file from remote directoy to the specified evidence folder
+- encode/decode checker; if encoded string is found attempt to decode it
+- check multiple directory structures (start with [root] or User after 
+  drive letter variable to compensate for different mounting software)
+    - example: c:\[root]\Users\ is valid and C:\Users\ is also valid
+    - write for both possibilities
+- command line option to pull out or check for archives containing plain
+  text passwords stored in browsers
+- check for permissions to create folders and write data in the outbound dir
